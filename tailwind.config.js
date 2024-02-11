@@ -6,6 +6,7 @@ export default {
       colors: {
         "dark-blue": "#0f1729ff",
         "blue-light": "#7375ffff",
+        "grey-theme": "#1e293bff",
       },
       margin: {
         custom: "8rem",
