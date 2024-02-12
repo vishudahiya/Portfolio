@@ -10,26 +10,28 @@ export default function Starting() {
   }
 
   return (
-    <div class="flex items-center mt-40 font-poppins w-full justify-center">
+    <div class="flex items-center mt-36 font-poppins w-full justify-center">
       <div>
         <img src={imgLogo} alt="About" class=" size-96 rounded-full " />
       </div>
-      <div class="ml-20">
-        <div class="text-black ">
-          <p>Hello, I'm</p>
-          <p>Vishal Dahiya </p>
-          <p>Frontend Developer</p>
+      <div class="ml-24 space-y-4">
+        <div class="text-black text-center space-y-4">
+          <p class="text-2xl text-grey-theme font-medium">Hello, I'm</p>
+          <p class="text-4xl font-bold text-black">Vishal Dahiya </p>
+          <p class="text-3xl text-grey-theme font-medium">Frontend Developer</p>
         </div>
-        <div class="text-black flex font-medium justify-around">
-          <button onClick={openLink} class="rounded-full border-2 p-4 ">
+        <div class="text-black flex text-sm justify-center mt-3">
+          <button
+            onClick={openLink}
+            class="rounded-full border-2 border-black p-2 hover:bg-grey-dark hover:text-white"
+          >
             Download CV
           </button>
-
-          <button onClick={openLink} class="rounded-full border-2 p-4">
+          <button class="rounded-full border-2 border-black p-3 bg-grey-dark text-white ml-4 hover:bg-black">
             Contact Info
           </button>
         </div>
-        <div class="flex">
+        <div class="flex justify-center">
           <a
             href="https://www.linkedin.com/in/vishaldahiya1/"
             target="_blank"
@@ -44,7 +46,7 @@ export default function Starting() {
             rel="noopener noreferrer"
             class="text-black  fa-solid fa-2x"
           >
-            <i class="fab fa-github fa-lg"></i>
+            <i class="fab fa-github fa-lg ml-4"></i>
           </a>
         </div>
       </div>
