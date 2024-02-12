@@ -12,11 +12,10 @@ export default {
         custom: "8rem",
       },
       fontSize: {
-        "custom-xs": "0.75rem", // Replace with your custom value
-        "custom-sm": "0.875rem", // Replace with your custom value
-        "text_custom-base": "1.15rem", // Replace with your custom value
-        "custom-lg": "1.125rem", // Replace with your custom value
-        "custom-xl": "1.25rem", // Replace with your custom value
+        "text-large": "2rem", // Replace with your custom value
+      },
+      fontFamily: {
+        poppins: ["Poppins", "sans-serif"],
       },
     },
   },
