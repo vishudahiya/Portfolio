@@ -1,10 +1,15 @@
+import imagePhoto from "../assets/About_photo.jpg";
+
 export default function About() {
   return (
-    <div class=" pt-6">
-      <h1 class="font-bold text-3xl text-white text-center">About Me</h1>
-      <div class="flex justify-around">
+    <div class=" mt-48">
+      <p class="text-1xl text-grey-theme font-medium text-center mb-2">
+        Get To Know More
+      </p>
+      <p class="text-5xl font-bold text-black text-center">About Me</p>
+      <div class="flex justify-around mt-10">
         <div>
-          <p>d</p>
+          <img src={imagePhoto} alt="About_Photo" class="size-64 rounded-3xl" />
         </div>
         <div>
           <p>pp</p>

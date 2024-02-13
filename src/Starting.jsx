@@ -12,7 +12,11 @@ export default function Starting() {
   return (
     <div class="flex items-center mt-36 font-poppins w-full justify-center">
       <div>
-        <img src={imgLogo} alt="About" class=" size-96 rounded-full " />
+        <img
+          src={imgLogo}
+          alt="About"
+          class=" size-96 rounded-full tranfrom rotate-10"
+        />
       </div>
       <div class="ml-24 space-y-4">
         <div class="text-black text-center space-y-4">
