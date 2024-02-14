@@ -1,4 +1,4 @@
-import imgLogo from "./assets/profile.jpg";
+import imgLogo from "./assets/profile.png";
 import "@fortawesome/fontawesome-free/css/all.css";
 
 export default function Starting() {
@@ -15,7 +15,7 @@ export default function Starting() {
         <img
           src={imgLogo}
           alt="About"
-          class=" size-96 rounded-full tranfrom rotate-10"
+          class=" size-96 rounded-full tranfrom rotate-10 bg-profile-bkg backdrop-sepia-0 "
         />
       </div>
       <div class="ml-24 space-y-4">
