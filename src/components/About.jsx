@@ -40,7 +40,7 @@ export default function About() {
             <AboutBoxes data={data[0]} />
             <AboutBoxes data={data[1]} />
           </div>
-          <p class="item-centre text-justify md:pt-2 md:px-24 text-grey-theme lg:mt-6 mx-6 pb-4 pt-5">
+          <p class="item-centre text-justify md:pt-2 md:px-24 text-grey-theme lg:mt-6 mx-6 pt-5">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic quis
             reprehenderit et laborum, rem, dolore eum quod voluptate
             exercitationem nobis, nihil esse debitis maxime facere minus sint
