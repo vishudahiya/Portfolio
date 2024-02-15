@@ -21,10 +21,16 @@ export default {
         poppins: ["Poppins", "sans-serif"],
       },
       height: {
-        custom: "400px",
+        custom: "380px",
+        custom1: "380px",
       },
       width: {
-        custom: "1600px",
+        custom: "980px",
+        custom1: "380px",
+      },
+      borderWidth: {
+        "custom-border": "0.1px", // Custom border size
+        "custom-border1": "1px", // Custom border size
       },
     },
   },

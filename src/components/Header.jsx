@@ -1,6 +1,6 @@
 export default function Header() {
   return (
-    <div class="md:w-full md:flex md:justify-around md:items-center md:pt-8 text-black md:text-center font-poppins">
+    <div class="w-full flex justify-around items-center text-black text-center font-poppins lg:pt-12">
       <div class="md:text-text-large">
         <p>Vishal Dahiya</p>
       </div>
