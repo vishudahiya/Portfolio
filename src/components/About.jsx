@@ -36,11 +36,11 @@ export default function About() {
           />
         </div>
         <div class="md:my-6 md:ml-4 lg:py-10 pb-2">
-          <div class="md:flex md:justify-around flex mx-2 justify-around md:px-20">
+          <div class="md:flex md:justify-around flex mx-1 justify-around md:px-20">
             <AboutBoxes data={data[0]} />
             <AboutBoxes data={data[1]} />
           </div>
-          <p class="item-centre text-justify md:pt-2 md:px-24 text-grey-theme lg:mt-6 mx-6 pb-16 pt-5">
+          <p class="item-centre text-justify md:pt-2 md:px-24 text-grey-theme lg:mt-6 mx-6 pb-10 pt-5">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic quis
             reprehenderit et laborum, rem, dolore eum quod voluptate
             exercitationem nobis, nihil esse debitis maxime facere minus sint
