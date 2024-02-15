@@ -13,7 +13,7 @@ export default {
         custom: "8rem",
       },
       fontSize: {
-        "text-large": "2rem", // Replace with your custom value
+        "text-large": "2rem",
         "text-medium": "1.25rem",
         "icon-small": "1.25rem",
       },
@@ -21,10 +21,10 @@ export default {
         poppins: ["Poppins", "sans-serif"],
       },
       height: {
-        custom: "400px", // Add your custom height value
+        custom: "400px",
       },
       width: {
-        custom: "1600px", // Add your custom width value
+        custom: "1600px",
       },
     },
   },

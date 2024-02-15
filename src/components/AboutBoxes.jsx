@@ -1,8 +1,8 @@
 export default function AboutBoxes({ data }) {
   return (
-    <div class="space-y-1 border-solid  border-stone-400 border-2 py-5 px-16 rounded-3xl text-center items-center justify-center">
-      <img src={data.img} class="h-8 px-14" />
-      <p class="font-bold text-text-medium">{data.education}</p>
+    <div class="md:space-y-1 border-solid  border-stone-400 border-2 md:py-5 md:px-16 md:rounded-3xl md:text-center md:items-center md:justify-center">
+      <img src={data.img} class="md:h-8 md:px-14" />
+      <p class="font-bold md:text-text-medium">{data.education}</p>
       <p class="text-grey-theme">{data.experience}</p>
       <p class="text-grey-theme">{data.tech}</p>
     </div>
