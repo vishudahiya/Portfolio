@@ -9,7 +9,7 @@ export default function Header() {
         <div>
           <div className="flex items-center justify-between py-4 md:py-5 md:block px-2">
             <a href="javascript:void(0)">
-              <h2 className="text-text-large ">Vishal Dahiya</h2>
+              <h2 className="text-2xl ">Vishal Dahiya</h2>
             </a>
             <div className="md:hidden">
               <button
