@@ -5,7 +5,7 @@ export default function Header() {
 
   return (
     <nav className="w-full font-poppins">
-      <div className="justify-between px-16 mt-10  mx-auto lg:max-w-7xl md:items-center md:flex md:mx-44 lg:mx-72">
+      <div className="justify-between px-10 mt-10  mx-auto lg:max-w-7xl md:items-center md:flex md:mx-44 lg:mx-72">
         <div>
           <div className="flex items-center justify-between py-3 md:py-12 md:block">
             <h2 className="text-2xl md:text-text-large text-black">
