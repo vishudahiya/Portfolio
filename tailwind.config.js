@@ -13,8 +13,8 @@ export default {
         custom: "8rem",
       },
       fontSize: {
-        "text-large": "2rem",
-        "text-medium": "1.25rem",
+        "text-large": "1.9rem",
+        "text-medium": "1.7rem",
         "icon-small": "1.25rem",
       },
       fontFamily: {
