@@ -4,14 +4,13 @@ export default function Header() {
   const [navbar, setNavbar] = useState(false);
 
   return (
-    <nav className="w-full font-poppins">
-      <div className="justify-between px-10 mt-6  mx-auto lg:max-w-7xl md:items-center md:flex md:mx-44 lg:mx-72">
+    <nav className="w-full font-poppins md:mt-6 md:px-10">
+      <div className="justify-between px-4 mx-auto lg:max-w-7xl md:items-center md:flex md:px-8">
         <div>
-          <div className="flex items-center justify-between py-3 md:py-12 md:block">
-            <h2 className="text-2xl md:text-text-large text-black">
-              Vishal Dahiya
-            </h2>
-
+          <div className="flex items-center justify-between py-4 md:py-5 md:block px-2">
+            <a href="javascript:void(0)">
+              <h2 className="text-text-large ">Vishal Dahiya</h2>
+            </a>
             <div className="md:hidden">
               <button
                 className="p-2 text-gray-700 rounded-md outline-none focus:border-gray-400 focus:border"
@@ -20,7 +19,7 @@ export default function Header() {
                 {navbar ? (
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    className="w-6 h-6 text-black "
+                    className="w-6 h-6"
                     viewBox="0 0 20 20"
                     fill="currentColor"
                   >
@@ -33,7 +32,7 @@ export default function Header() {
                 ) : (
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    className="w-6 h-6 text-black"
+                    className="w-6 h-6"
                     fill="none"
                     viewBox="0 0 24 24"
                     stroke="currentColor"
@@ -56,7 +55,7 @@ export default function Header() {
               navbar ? "block" : "hidden"
             }`}
           >
-            <ul className="items-center justify-center space-y-8 md:flex md:space-x-6 md:space-y-0 md:py-12 md:text-text-medium">
+            <ul className="items-center justify-center space-y-8 md:flex md:space-x-6 md:space-y-0 md:text-text-medium">
               <li className="md:hover:text-slate-400 md:hover:underline md:underline-offset-8 md:cursor-pointer">
                 <a href="javascript:void(0)">About</a>
               </li>

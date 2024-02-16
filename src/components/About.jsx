@@ -27,20 +27,20 @@ export default function About() {
       <p class="md:text-5xl font-bold text-black text-center text-3xl mb-4">
         About Me
       </p>
-      <div class="md:flex md:justify-evenly lg:mt-34 lg:mx-10 md:px-6">
+      <div class="md:flex md:justify-between lg:mt-34 lg:mx-auto">
         <div class="flex items-center justify-center lg:ml-20">
           <img
             src={imagePhoto}
             alt="About_Photo"
-            class="md:h-custom md:w-custom md:rounded-3xl md:mt-6 bg-stone-100 backdrop-brightness-50 lg:h-86 lg:w-92 lg:bg-stone-200 lg:px-16 rounded-3xl h-44 w-44 mb-9"
+            class="md:h-custom md:w-custom md:rounded-3xl md:mt-6  bg-stone-100 backdrop-brightness-50 lg:h-86 lg:w-92 lg:bg-stone-200 lg:px-16 rounded-3xl h-44 w-44 mb-9"
           />
         </div>
-        <div class="md:my-6 md:ml-2 lg:py-14 lg:ml-[-18px] mb-[-55px]">
-          <div class="md:flex md:justify-around flex mx-1 justify-around md:px-20">
+        <div class="md:my-6 lg:py-14 lg:ml-[-18px] mb-[-55px]">
+          <div class="md:flex md:justify-between flex mx-1 justify-around">
             <AboutBoxes data={data[0]} />
             <AboutBoxes data={data[1]} />
           </div>
-          <p class="item-centre text-justify md:pt-2 md:px-24 text-grey-theme lg:mt-6 mx-6 pt-5">
+          <p class="item-centre text-justify md:pt-2 md:px-7 text-grey-theme lg:mt-6 mx-6 pt-5">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic quis
             reprehenderit et laborum, rem, dolore eum quod voluptate
             exercitationem nobis, nihil esse debitis maxime facere minus sint
