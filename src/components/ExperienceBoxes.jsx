@@ -34,7 +34,7 @@ export default function ExperienceBoxes({ data }) {
             </p>
           </div>
         </div>
-        <div class="md:space-y-8 space-y-5">
+        <div class="md:space-y-8 space-y-5 mb-5">
           <div>
             <p class="md:font-font-custom  md:text-text-medium2 font-font-custom1 text-xl">
               {data.skill[1] ? data.skill[1] : ""}

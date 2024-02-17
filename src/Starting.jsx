@@ -16,7 +16,7 @@ export default function Starting() {
           src={imgLogo}
           alt="About"
           class=" md:h-custom1 md:w-custom1 md:mt-[-70px] md:ml-[1px] md:rounded-full md:tranfrom md:rotate-10 bg-profile-bkg 
-          md:backdrop-sepia-0 size-40 rounded-full justify-center items-center mx-[120px]"
+          md:backdrop-sepia-0 size-40 rounded-full justify-center items-center mx-[120px] px-[-0]"
         />
       </div>
       <div class="md:mr-0 md:space-y-4 md:items-center md:justify-items-start md:text-center md:mx-[-80px] md:mt-[-80px]">
