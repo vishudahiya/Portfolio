@@ -20,7 +20,7 @@ const data = [
 
 export default function About() {
   return (
-    <div class=" md:mt-40 md:mb-30 my-44 font-poppins">
+    <div class=" md:mt-40 md:mb-24 my-44 font-poppins">
       <p class="md:text-1xl text-grey-theme md:font-medium text-center md:mb-3 text-md mb-1">
         Get To Know More
       </p>

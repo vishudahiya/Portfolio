@@ -15,6 +15,8 @@ export default {
       fontSize: {
         "text-large": "1.9rem",
         "text-medium": "1.7rem",
+        "text-medium1": "1.1rem",
+        "text-medium2": "1.4rem",
         "icon-small": "1.25rem",
       },
       fontFamily: {
@@ -31,6 +33,10 @@ export default {
       borderWidth: {
         "custom-border": "0.1px", // Custom border size
         "custom-border1": "1px", // Custom border size
+      },
+      fontWeight: {
+        "font-custom": "500",
+        "font-custom1": "600",
       },
     },
   },
