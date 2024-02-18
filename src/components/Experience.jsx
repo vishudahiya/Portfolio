@@ -22,16 +22,16 @@ const data = [
 
 export default function Experience() {
   return (
-    <div class="">
+    <div class="md:py-20">
       <div class="">
-        <p class="md:text-1xl text-grey-theme md:font-medium text-center md:mb-3 text-md mb-1">
+        <p class="md:text-1xl text-grey-theme md:font-medium text-center md:mb-3 text-md mb-1 lg:text-xl">
           Explore My
         </p>
         <p class="md:text-5xl font-bold text-black text-center text-3xl mb-9">
           Experience
         </p>
       </div>
-      <div class="md:flex md:flex-row md:justify-around md:mx-44 mx-8 md:mb-10 mt-5 flex flex-col">
+      <div class="md:flex md:flex-row md:justify-around md:mx-44 mx-8 md:mb-10 mt-5 flex flex-col lg:mx-94">
         <ExperienceBoxes data={data[0]} />
         <ExperienceBoxes data={data[1]} />
       </div>
