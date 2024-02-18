@@ -9,6 +9,7 @@ export default function App() {
     <div class="scroll-smooth">
       <Header />
       <Outlet />
+      <Footer />
     </div>
   );
 }

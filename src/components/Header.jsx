@@ -59,18 +59,18 @@ export default function Header() {
             <ul className="items-center justify-center space-y-8 md:flex md:space-x-6 md:space-y-0 md:text-text-medium">
               <li className="md:hover:text-slate-400 md:hover:underline md:underline-offset-8 md:cursor-pointer">
                 <NavLink to="/about">
-                  <a href="javascript:void(0)">About</a>
+                  <p>About</p>
                 </NavLink>
               </li>
               <li className="md:hover:text-slate-400 md:hover:underline md:underline-offset-8 md:cursor-pointer">
                 <NavLink to="/experience">
-                  <a href="javascript:void(0)">Experience</a>
+                  <p>Experience</p>
                 </NavLink>
               </li>
 
               <li className="md:hover:text-slate-400 md:hover:underline md:underline-offset-8 md:cursor-pointer">
                 <NavLink>
-                  <a href="javascript:void(0)">Projects</a>
+                  <p>Projects</p>
                 </NavLink>
               </li>
               <li className="md:hover:text-slate-400 md:hover:underline md:underline-offset-8 md:cursor-pointer">
