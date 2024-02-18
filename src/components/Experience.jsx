@@ -22,7 +22,7 @@ const data = [
 
 export default function Experience() {
   return (
-    <div class="md:py-20">
+    <div class="md:py-20 my-24">
       <div class="">
         <p class="md:text-1xl text-grey-theme md:font-medium text-center md:mb-3 text-md mb-1 lg:text-xl">
           Explore My

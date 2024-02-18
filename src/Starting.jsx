@@ -10,7 +10,7 @@ export default function Starting() {
   }
 
   return (
-    <div class="md:flex items-center font-poppins justify-center lg:my-52 mt-24 mb-8">
+    <div class="md:flex items-center font-poppins justify-center lg:my-52 my-24">
       <div>
         <img
           src={imgLogo}

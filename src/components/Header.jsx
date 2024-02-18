@@ -10,9 +10,7 @@ export default function Header() {
         <div>
           <div className="flex items-center justify-between py-4 md:py-5 md:block px-2">
             <NavLink to="">
-              <a href="javascript:void(0)">
-                <h2 className="text-3xl ">Vishal Dahiya</h2>
-              </a>
+              <h2 className="text-3xl ">Vishal Dahiya</h2>
             </NavLink>
             <div className="md:hidden">
               <button
@@ -59,21 +57,26 @@ export default function Header() {
             }`}
           >
             <ul className="items-center justify-center space-y-8 md:flex md:space-x-6 md:space-y-0 md:text-text-medium">
-              <NavLink to="about">
-                <li className="md:hover:text-slate-400 md:hover:underline md:underline-offset-8 md:cursor-pointer">
-                  <a href="javascript:void(0)">About</a>
-                </li>
-              </NavLink>
-              <NavLink to="experience">
-                <li className="md:hover:text-slate-400 md:hover:underline md:underline-offset-8 md:cursor-pointer">
-                  <a href="javascript:void(0)">Experience</a>
-                </li>
-              </NavLink>
               <li className="md:hover:text-slate-400 md:hover:underline md:underline-offset-8 md:cursor-pointer">
-                <a href="javascript:void(0)">Projects</a>
+                <NavLink to="/about">
+                  <a href="javascript:void(0)">About</a>
+                </NavLink>
               </li>
               <li className="md:hover:text-slate-400 md:hover:underline md:underline-offset-8 md:cursor-pointer">
-                <a href="javascript:void(0)">Contact</a>
+                <NavLink to="/experience">
+                  <a href="javascript:void(0)">Experience</a>
+                </NavLink>
+              </li>
+
+              <li className="md:hover:text-slate-400 md:hover:underline md:underline-offset-8 md:cursor-pointer">
+                <NavLink>
+                  <a href="javascript:void(0)">Projects</a>
+                </NavLink>
+              </li>
+              <li className="md:hover:text-slate-400 md:hover:underline md:underline-offset-8 md:cursor-pointer">
+                <NavLink>
+                  <a href="javascript:void(0)">Contact</a>
+                </NavLink>
               </li>
             </ul>
           </div>
