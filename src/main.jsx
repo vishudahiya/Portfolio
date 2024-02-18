@@ -1,4 +1,4 @@
-import React from "react";
+import React, { Profiler } from "react";
 import ReactDOM from "react-dom/client";
 import App from "./App.jsx";
 import "./index.css";
@@ -9,10 +9,11 @@ import {
   RouterProvider,
 } from "react-router-dom";
 import About from "./components/About.jsx";
-import NotFoundPage from "./components/NotFoundPage.jsx";
 import Starting from "./Starting.jsx";
 import Experience from "./components/Experience.jsx";
 import User, { gitHubLoader } from "./components/User/User.jsx";
+import Projects from "./components/Projects.jsx";
+import Contact from "./components/Contact.jsx";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -21,6 +22,8 @@ const router = createBrowserRouter(
       <Route path="about" element={<About />} />
       <Route path="experience" element={<Experience />} />
       <Route loader={gitHubLoader} path="user" element={<User />} />
+      <Route path="project" element={<Projects />} />
+      <Route path="contact" element={<Contact />} />
     </Route>
   )
 );

@@ -69,12 +69,12 @@ export default function Header() {
               </li>
 
               <li className="md:hover:text-slate-400 md:hover:underline md:underline-offset-8 md:cursor-pointer">
-                <NavLink>
+                <NavLink to="/project">
                   <p>Projects</p>
                 </NavLink>
               </li>
               <li className="md:hover:text-slate-400 md:hover:underline md:underline-offset-8 md:cursor-pointer">
-                <NavLink>
+                <NavLink to="/contact">
                   <a href="javascript:void(0)">Contact</a>
                 </NavLink>
               </li>
