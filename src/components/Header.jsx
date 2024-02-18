@@ -9,9 +9,11 @@ export default function Header() {
       <div className="justify-between px-4 mx-auto lg:max-w-7xl md:items-center md:flex md:px-8">
         <div>
           <div className="flex items-center justify-between py-4 md:py-5 md:block px-2">
-            <a href="javascript:void(0)">
-              <h2 className="text-3xl ">Vishal Dahiya</h2>
-            </a>
+            <NavLink to="">
+              <a href="javascript:void(0)">
+                <h2 className="text-3xl ">Vishal Dahiya</h2>
+              </a>
+            </NavLink>
             <div className="md:hidden">
               <button
                 className="p-2 text-gray-700 rounded-md outline-none focus:border-gray-400 focus:border"
@@ -62,7 +64,7 @@ export default function Header() {
                   <a href="javascript:void(0)">About</a>
                 </li>
               </NavLink>
-              <NavLink to="e">
+              <NavLink to="experience">
                 <li className="md:hover:text-slate-400 md:hover:underline md:underline-offset-8 md:cursor-pointer">
                   <a href="javascript:void(0)">Experience</a>
                 </li>
