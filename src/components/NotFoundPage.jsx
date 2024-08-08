@@ -1,11 +1,13 @@
 import { Link } from "react-router-dom";
+import Header from "./Header";
 
 export default function NotFoundPage() {
   return (
-    <div class="flex justify-center items-center flex-col">
-      <p>404 Not Found</p>
-
-      <Link to="/">Home</Link>
-    </div>
+    <>
+      <Header />
+      <p class="flex justify-center text-5xl items-center flex-col py-60">
+        404 Not Found
+      </p>
+    </>
   );
 }

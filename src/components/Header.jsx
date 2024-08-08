@@ -5,13 +5,13 @@ export default function Header() {
   const [navbar, setNavbar] = useState(false);
 
   return (
-    <nav className="w-full font-poppins md:mt-6 md:px-10">
-      <div className="justify-between px-4 mx-auto lg:max-w-7xl md:items-center md:flex md:px-8">
+    <nav className="w-full font-poppins md:mt-6 md:px-16">
+      <div className="justify-between px-4 mx-auto lg:max-w-7xl md:items-center md:flex md:px-20">
         <div>
           <div className="flex items-center justify-between py-4 md:py-5 md:block px-2">
-            <NavLink to="">
-              <h2 className="text-3xl ">Vishal Dahiya</h2>
-            </NavLink>
+            {/* <NavLink to="/"> */}
+            <h2 className="text-3xl ">Vishal Dahiya</h2>
+            {/* </NavLink> */}
             <div className="md:hidden">
               <button
                 className="p-2 text-gray-700 rounded-md outline-none focus:border-gray-400 focus:border"
@@ -58,25 +58,25 @@ export default function Header() {
           >
             <ul className="items-center justify-center space-y-8 md:flex md:space-x-6 md:space-y-0 md:text-text-medium">
               <li className="md:hover:text-slate-400 md:hover:underline md:underline-offset-8 md:cursor-pointer">
-                <NavLink to="/about">
-                  <p>About</p>
-                </NavLink>
+                {/* <NavLink to="about"> */}
+                <p>About</p>
+                {/* </NavLink> */}
               </li>
               <li className="md:hover:text-slate-400 md:hover:underline md:underline-offset-8 md:cursor-pointer">
-                <NavLink to="/experience">
-                  <p>Experience</p>
-                </NavLink>
+                {/* <NavLink to="experience"> */}
+                <p>Experience</p>
+                {/* </NavLink> */}
               </li>
 
-              <li className="md:hover:text-slate-400 md:hover:underline md:underline-offset-8 md:cursor-pointer">
-                <NavLink to="/project">
+              {/* <li className="md:hover:text-slate-400 md:hover:underline md:underline-offset-8 md:cursor-pointer">
+                <NavLink to="project">
                   <p>Projects</p>
                 </NavLink>
-              </li>
+              </li> */}
               <li className="md:hover:text-slate-400 md:hover:underline md:underline-offset-8 md:cursor-pointer">
-                <NavLink to="/contact">
-                  <a href="javascript:void(0)">Contact</a>
-                </NavLink>
+                {/* <NavLink to="contact"> */}
+                <p>Contact</p>
+                {/* </NavLink> */}
               </li>
             </ul>
           </div>
