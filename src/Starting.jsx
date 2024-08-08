@@ -4,7 +4,7 @@ import "@fortawesome/fontawesome-free/css/all.css";
 export default function Starting() {
   function openLink() {
     window.open(
-      "https://drive.google.com/file/d/1EP3vthn8LcVD3Xlg5wdNZ-zGdf_xK_jU/view?usp=sharing",
+      "https://drive.google.com/file/d/1aweudeyw04xOn8WKHwwteJqqmxPQa6K_/view?usp=sharing",
       "_blank"
     );
   }
