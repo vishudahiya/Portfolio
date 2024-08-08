@@ -1,4 +1,4 @@
-import imgLogo from "./assets/profile.png";
+import imgLogo from "./assets/profile.jpg";
 import "@fortawesome/fontawesome-free/css/all.css";
 
 export default function Starting() {
